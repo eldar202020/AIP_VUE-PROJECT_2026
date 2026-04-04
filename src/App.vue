@@ -27,7 +27,7 @@
           <v-icon start :icon="link.icon"></v-icon>
           {{ link.title }}
         </v-btn>
-      </v-toolbar-items>
+      </v-toolbar-items>  
     </v-app-bar>
     <!-- ##################################################################################### -->
     <v-main> 
@@ -35,6 +35,7 @@
     </v-main>
   </v-app>
 </template>
+
 
 <script>
 export default {
